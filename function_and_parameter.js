@@ -57,9 +57,9 @@ function OddEven(number){
          console.log(number + " Is odd");
          return
         }
-}
-
-// console.log(OddEven());
+} 
+ 
+// console.log(OddEven(3));
 
 
 
