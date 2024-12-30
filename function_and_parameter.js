@@ -8,11 +8,16 @@ function sayMyName() {
 }
 
 // sayMyName();
-// function addTwoNumber(number1,number2) {
-//         console.log(number1 + number2);
+
+function addTwonumber(number1,number2) {
+        console.log(number1 + number2);
  
-// }
-// addTwoNumber(3, 4)
+}
+// addTwonumber(3, 4)
+
+// var result = addTwonumber(3, 4)
+
+// console.log("result : ", result);
 
 function addTwoNumber(number1,number2) {
        
@@ -25,13 +30,14 @@ function addTwoNumber(number1,number2) {
 //  console.log("result: ",addTwoNumber(3, 4));
  
 
-// var result = addTwoNumber(3, 4)
+var result = addTwoNumber(3, 4)
 // console.log("Result: ", result);
+
 
 
 function loginUserMessage(username = "sam") {  //override value
     if (username === undefined) {
-        // console.log("Please Enter Username ");
+        console.log("Please Enter Username ");
         return
         
     }
@@ -39,6 +45,8 @@ function loginUserMessage(username = "sam") {  //override value
 } 
 
 // console.log(loginUserMessage("bhavik"));
+
+
 
 
 
