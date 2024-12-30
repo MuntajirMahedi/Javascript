@@ -61,7 +61,7 @@ var users = [
 
 
 
-console.log(tinderuser.hasOwnProperty("isLoggedIn"));
+// console.log(tinderuser.hasOwnProperty("isLoggedIn"));
 
 
 var course = {
