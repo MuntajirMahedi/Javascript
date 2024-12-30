@@ -47,9 +47,6 @@ function loginUserMessage(username = "sam") {  //override value
 // console.log(loginUserMessage("bhavik"));
 
 
-
-
-
 function OddEven(number){
           
     if (number === undefined ) {
@@ -70,4 +67,27 @@ function OddEven(number){
 // console.log(OddEven(3));
 
 
+function calculateCartPrice(val1, val2, ...num1) {
+    return num1 
+}   
+// console.log(calculateCartPrice(200, 300, 400, 500));
 
+var user = {
+    username: "bhavik",
+    price: 199
+    }
+
+    function handleObject(anyObject) {
+        console.log(`Username: ${anyObject.username} and Price: ${anyObject.price}`);
+    }
+
+    // handleObject(user);
+
+var mynewArray = [100, 200, 300, 400]
+
+function returnSecondValue(getArray) {
+    return getArray[1]
+} 
+
+console.log(returnSecondValue(mynewArray));
+console.log(returnSecondValue([100, 200, 300, 400]));
