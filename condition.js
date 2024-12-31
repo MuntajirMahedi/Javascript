@@ -29,7 +29,7 @@ else{
 //_______________________________________________________________
 
 //tarnary operator
- 
+
 var number = 21;
 // console.log(number);
 // console.log("Odd Or Even Number : ", number % 2 == 0 ? "Even Number" : "Odd Number");
